@@ -1,9 +1,10 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Form from './components/Form';
 
 const Login = () => (
   <View>
-    <Text>Modal Login</Text>
+    <Form />
   </View>
 );
 
