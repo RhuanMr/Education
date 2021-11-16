@@ -2,11 +2,12 @@ import {StyleSheet} from 'react-native';
 
 const style = StyleSheet.create({
   containerInputs: {
-    marginBottom: 20,
+    marginBottom: '10%',
     width: '100%',
+    justifyContent: 'space-evenly',
   },
   container: {
-    width: '80%',
+    paddingHorizontal: '10%',
     alignItems: 'center',
     flex: 1,
   },

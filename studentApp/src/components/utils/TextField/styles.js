@@ -5,8 +5,11 @@ const style = StyleSheet.create({
   TextField: {
     color: COLORS.BLUE,
     width: '80%',
-    height: 30,
+    height: 60,
+  },
+  container: {
     borderBottomColor: COLORS.BLUE,
+    borderBottomWidth: 1,
   },
 });
 
